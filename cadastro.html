@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>CADASTRE-SE: </h1>
+    </header>
+    <form action="processaCadastro.php" method="post">
+        <label for="nome_us">Nome</label>
+        <div class="cxInput">
+            <input type="text" name="nome_us" id="nome_us" required>
+        </div>
+
+        <label for="sobrenome_us">Sobrenome</label>
+        <div class="cxInput">
+            <input type="text" name="sobrenome_us" id="sobrenome_us" required>
+        </div>
+
+        <label for="email_us">Email</label>
+        <div class="cxInput">
+            <input type="email" name="email_us" id="emai_us" required>
+        </div>
+
+        <label for="senha_us">Senha</label>
+        <div class="cxInput">
+            <input type="password" name="senha_us" id="senha_us" required>
+        </div>
+        <div>
+            <input type="submit">
+        </div>
+    </form>
+</body>
+</html>
